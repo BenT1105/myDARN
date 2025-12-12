@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mydarn"
+version = "0.1.0"
+description = "Python data processing and visualization library for the Super Dural Auroral Radar Network (SuperDARN)"
+authors = [{name = "Ben Tobin"}]
+dependencies = ["pydarn", "pydarnio", "numpy", "matplotlib"]
